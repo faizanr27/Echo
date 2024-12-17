@@ -104,6 +104,7 @@ function App() {
             <motion.div 
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
+                  viewport={{once:true}}
                   transition={{
                     duration: 0.8,
                     delay: 0.5,
@@ -127,6 +128,7 @@ function App() {
             <motion.h2 
                   initial={{ opacity: 0, scale: 0.5 }}
                   whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{once:true}}
                   transition={{
                     duration: 0.8,
                     delay: 0.5,
@@ -161,6 +163,7 @@ function App() {
             <motion.h2 
             initial={{opacity:0, scale:0.5}}
             whileInView={{opacity:1, scale:1}}
+            viewport={{once:true}}
             transition={{
               duration: 0.8,
               delay: 0.5,
@@ -170,6 +173,7 @@ function App() {
             <motion.div 
                         initial={{opacity:0, scale:0.5}}
                         whileInView={{opacity:1, scale:1}}
+                        viewport={{once:true}}
                         transition={{
                           duration: 0.8,
                           delay: 0.5,
@@ -202,6 +206,7 @@ function FeatureCard({ icon, title, description }: {
     <motion.div 
       initial={{ opacity: 0, scale: 0.5 }}
       whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{once:true}}
       transition={{
         duration: 0.8,
         delay: 0.5,
